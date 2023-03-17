@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Music of the Sun",
+    "release_date": "August 29, 2005",
+    "image":"/../riri/RIRI1.png",
+    "songs": [
+      {
+        "title": "Pon de Replay",
+        "duration": "3:35"
+      },
+      {
+        "title": "Here I Go Again",
+        "duration": "4:11"
+      },
+      {
+        "title": "If It's Lovin' That You Want",
+        "duration": "3:28"
+      },
+      {
+        "title": "You Don't Love Me (No, No, No)",
+        "duration": "4:20"
+      }
+    ]
+  },
+  {
+    "title": "A Girl like Me",
+    "release_date": "April 19, 2006",
+    "image":"../riri/RIRI2.jpeg",
+    "songs": [
+      {
+        "title": "SOS",
+        "duration": "4:00"
+      },
+      {
+        "title": "Unfaithful",
+        "duration": "3:50"
+      },
+      {
+        "title": "We Ride",
+        "duration": "3:56"
+      },
+      {
+        "title": "Break It Off",
+        "duration": "3:34"
+      }
+    ]
+  },
+  {
+    "title": "Good Girl Gone Bad",
+    "release_date": "June 5, 2007",
+    "image":"../riri/RIRI3.jpeg",
+    "songs": [
+      {
+        "title": "Umbrella",
+        "duration": "4:35"
+      },
+      {
+        "title": "Shut Up and Drive",
+        "duration": "3:32"
+      },
+      {
+        "title": "Don't Stop the Music",
+        "duration": "4:27"
+      },
+      {
+        "title": "Hate That I Love You",
+        "duration": "3:39"
+      }
+    ]
+  },
+  {
+    "title": "Rated R",
+    "release_date": "November 20, 2009",
+    "image":"https://media.vanityfair.com/photos/561d1afb319af15240f9b03b/master/w_960,c_limit/rihanna-cover-art-roy-nachum.jpg" ,
+    "songs": [
+      {
+        "title": "Russian Roulette",
+        "duration": "3:47"
+      },
+      {
+        "title": "Hard",
+        "duration": "4:10"
+      },
+      {
+        "title": "Rude Boy",
+        "duration": "3:43"
+      },
+      {
+        "title": "Te Amo",
+        "duration": "3:28"
+      }
+    ]
+  }
+]
+  
