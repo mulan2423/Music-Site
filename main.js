@@ -1,19 +1,18 @@
 const express = require("express");
+const bodyParser = require('body-parser');
 const data = require("./mockdatabase/albums.json");
 const app = express();
 const port = 3000;
 app.use(express.static('public'))
 app.get("/", (req, res) => {
-  res.send(htmlFormatAlbums());
+  res.send(htmlFormatAlbums(data));
 });
 
-function htmlFormatAlbums() {
-  const htmlFormat = data
-    .map((item) => {
-        console.log(item)
+function htmlFormatAlbums(data) {
+  const htmlFormat = data.map((item) => {
       return `
         <div>
-            <img src=${item.image}>
+            <img src=${item.image} style="width: 300px;">
             <h2>${item.title}</h2>
             <h3>${item.release_date}</h3>
             <ul>${htmlFormatSongs(item.songs)}</ul>
@@ -50,3 +49,14 @@ app.get("/data", (req, res) => {
 
   res.send(htmlData);
 });
+
+
+app.get('/albums/:id', (req, res) => {
+  const id = Number(req.params.id)    
+  const updatedData = data.filter((album) => {
+    return album.id === id
+  })
+  const formattedAlbums = htmlFormatAlbums(updatedData)
+  res.send(formattedAlbums)
+});
+
